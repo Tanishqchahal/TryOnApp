@@ -176,6 +176,10 @@ export default function ProductPage() {
         id: 2,
         image: 'https://as1.ftcdn.net/jpg/01/29/32/90/1000_F_129329075_UC10cJaFhL6w3NiKDZYNAE4KUlRKeDDz.jpg',
       },
+      {
+        id: 3,
+        image: 'https://i.postimg.cc/D0wN9m48/model.jpg',
+      },
     ];
 
     const model = models.find(m => m.id === Number(selectedModel));

@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# Vastrai Fashion Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Problem Statement
+The fashion industry is constantly evolving, and customers are looking for innovative ways to try on clothes virtually before making a purchase. Traditional online shopping lacks the ability to visualize how clothing items will look on a person, leading to uncertainty and potential dissatisfaction.
 
-Currently, two official plugins are available:
+## Solution
+Vastrai offers an AI-powered virtual try-on solution that allows users to visualize clothing items on models or themselves. By integrating advanced image processing and machine learning techniques, Vastrai provides a seamless and interactive shopping experience. The platform includes features like:
+- Virtual try-on for various clothing items
+- A dynamic hero section with promotional slides
+- A modern and responsive design with a warm color theme
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Code Structure
 
-## Expanding the ESLint configuration
+### Components
+- **Hero.tsx**: Implements the hero banner with a slideshow of promotional images and text. It includes navigation arrows and indicators for a smooth user experience.
+- **ProductPage.tsx**: Displays product details and integrates the virtual try-on feature.
+- **Models.tsx**: Allows users to select a model for the virtual try-on experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Services
+- **tryOnService.ts**: Handles API interactions for the virtual try-on feature, including token generation and result polling.
 
-- Configure the top-level `parserOptions` property like this:
+### Context
+- **CartContext.tsx**: Manages the shopping cart state across the application.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Configuration
+- **tailwind.config.js**: Configures Tailwind CSS with custom color themes and responsive design settings.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Getting Started
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the development server with `npm run dev`.
+4. Open the application in your browser to explore the features.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Technologies Used
+- React: For building the user interface
+- Tailwind CSS: For styling and responsive design
+- Axios: For making API requests
+- JWT-Encode: For generating JSON Web Tokens
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Future Enhancements
+- Add user authentication for personalized experiences
+- Expand the virtual try-on feature to include more clothing categories
+- Integrate social sharing options for users to share their try-on results
+
+Feel free to explore the code and contribute to the project! If you have any questions or feedback, please reach out.

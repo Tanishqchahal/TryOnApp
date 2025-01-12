@@ -16,7 +16,7 @@ const models = [
   {
     id: 3,
     name: 'My Friend',
-    image: '/model.jpg',
+    image: 'https://i.postimg.cc/D0wN9m48/model.jpg',
   },
 ];
 
