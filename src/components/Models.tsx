@@ -5,13 +5,18 @@ import { FiCheck, FiPlus } from 'react-icons/fi';
 const models = [
   {
     id: 1,
-    name: 'Jack',
+    name: 'Male Model',
     image: 'https://media.istockphoto.com/id/521071031/photo/full-length-portrait-of-a-cool-black-guy-smiling.jpg?s=612x612&w=0&k=20&c=uKhrupXqSzGyZM8LTU-QBIBdWy67P4Rja5qobqsCuas= ',
   },
   {
     id: 2,
-    name: 'Jane',
+    name: 'Female Model',
     image: 'https://as1.ftcdn.net/jpg/01/29/32/90/1000_F_129329075_UC10cJaFhL6w3NiKDZYNAE4KUlRKeDDz.jpg ',
+  },
+  {
+    id: 3,
+    name: 'My Friend',
+    image: '/model.jpg',
   },
 ];
 
