@@ -2,8 +2,8 @@ import axios from 'axios';
 import encode from 'jwt-encode';
 
 const API_DOMAIN = '/api/klingai';
-const ACCESS_KEY = '16fd770a046d40d38e249bd35ddf6cf6';
-const SECRET_KEY = 'dce2abd40f874ee3bd257f970218ae37';
+const ACCESS_KEY = '16fd770a046d40d38e249bd35ddf6cf6'
+const SECRET_KEY = 'dce2abd40f874ee3bd257f970218ae37'
 
 interface TryOnResponse {
   code: number;
