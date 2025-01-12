@@ -45,7 +45,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 text-center text-gray-400">
-          <p>© 2024 TeeStyle. All rights reserved.</p>
+          <p>© 2025 वस्त्रAI. All rights reserved.</p>
         </div>
       </div>
     </footer>

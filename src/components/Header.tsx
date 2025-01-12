@@ -14,7 +14,7 @@ export default function Header() {
           {/* Logo with Home Link */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-3xl font-bold text-primary hover:text-secondary transition-colors">
-              TeeStyle
+            वस्त्रAI
             </Link>
           </div>
 

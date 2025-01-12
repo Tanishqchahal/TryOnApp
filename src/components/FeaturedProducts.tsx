@@ -40,7 +40,7 @@ export default function FeaturedProducts() {
               className="group block bg-white rounded-lg p-4 hover:shadow-lg transition-shadow duration-300"
             >
               <div className="relative aspect-[3/4] mb-4 overflow-hidden rounded-lg">
-                <div className="absolute inset-0 bg-gray-100">
+                <div className="absolute inset-0 bg-white">
                   <img
                     src={product.image}
                     alt={product.name}
