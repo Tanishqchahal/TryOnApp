@@ -9,22 +9,6 @@ Vastrai offers an AI-powered virtual try-on solution that allows users to visual
 - A dynamic hero section with promotional slides
 - A modern and responsive design with a warm color theme
 
-## Code Structure
-
-### Components
-- **Hero.tsx**: Implements the hero banner with a slideshow of promotional images and text. It includes navigation arrows and indicators for a smooth user experience.
-- **ProductPage.tsx**: Displays product details and integrates the virtual try-on feature.
-- **Models.tsx**: Allows users to select a model for the virtual try-on experience.
-
-### Services
-- **tryOnService.ts**: Handles API interactions for the virtual try-on feature, including token generation and result polling.
-
-### Context
-- **CartContext.tsx**: Manages the shopping cart state across the application.
-
-### Configuration
-- **tailwind.config.js**: Configures Tailwind CSS with custom color themes and responsive design settings.
-
 ## Getting Started
 1. Clone the repository.
 2. Install dependencies using `npm install`.
